@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Color Game</title>
+    <link rel="stylesheet" href="colorGame.css">
+</head>
+<body>
+    <!--Comienzo de Titulo y Color ganador-->
+    <h1 style="background: steelblue;">
+        The Great 
+        <span id="colorDisplay"></span>
+        Guessing Game
+    </h1> 
+    <!--Final de Titulo y Color ganador--> 
+
+    <!--Comienzo de botones reset y dificultad del juego-->
+    <div id="stripe">
+        <button><a href="/home.html" class="aHome">HOME</a></button>
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="botones selected">Hard</button>
+        <button class="botones">Easy</button>
+    </div>
+    <!--Final de botones reset y dificultad del juego-->
+
+    <!--Comienzo de cuadrados con los colores-->
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <!--Final de cuadrados con los colores-->
+    
+    <!--Boton Para regresar al inicio-->
+    
+    <!--Final del boton-->
+    <script src="colorGame.js"></script>
+</body>
+</html>

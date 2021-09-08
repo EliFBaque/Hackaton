@@ -1,0 +1,88 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(37, 37, 128);
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+/* Input Datos */
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+}
+
+.boton-agregar:hover{
+    background-color: rgba(255, 6, 48, 0.9);
+}
+/* Retoques Finales */
+
+.item-input{
+    height: 50px;
+    width: 330px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+.item{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.boton-editar{
+    height: 50px;
+    width: 50px;
+    margin: 0px 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.boton-remover{
+    height: 50px;
+    width: 50px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;    
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
